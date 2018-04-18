@@ -1,0 +1,354 @@
+html{
+   background: #b3b3b3;
+}
+body{
+    background: white;
+    position: absolute;
+    display: block;
+    left: 21%;
+    width:960;
+    margin: 0;
+
+}
+
+/*header*/
+.header{
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+    width: 960;
+    height: 359;
+}
+#main_image{
+    position: absolute;
+    width: 960;
+    z-index:1;
+}
+#openness-squ {
+    position: absolute;
+    width:960;
+    height:80px;
+    background: black;
+    opacity: 0.5;
+    z-index:2;
+}
+.logo{
+    position: absolute;
+    margin-left: 160px;
+    z-index:3;
+}
+.logo img{
+    width: 180;
+    height: 80;
+}
+.link{
+    width: 960;
+    position: absolute;
+    z-index:3;
+}
+.link a{
+    display: inline-block;
+    margin: 30px 10px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#news{
+    margin-left: 400px;
+}
+
+/*tool-link*/
+#information{
+    display: inline-block;
+    float: left;
+    padding-left: 5%;
+}
+#information img{
+    width: 215;
+    height: 60;
+}
+#download{
+    display: inline-block;
+    float: left;
+}
+#download img{
+    width: 215;
+    height: 60;
+}
+#search{
+    display: inline-block;
+    float: left;
+}
+#search img{
+    width: 215;
+    height: 60;
+}
+#discuss{
+    display: inline-block;
+}
+#discuss img{
+    width: 215;
+    height: 60;
+}
+
+
+/*active*/
+#active-sys{
+    display: inline-block;
+    font-size: 14;
+    padding-left: 12%;
+}
+#active-sys-main{
+    display: inline-block;
+    padding-top: 10px;
+    margin:0;
+    padding-left: 13%; 
+    font-weight: bolder;
+    color: #6fa8dc;
+}
+#active-sys {
+    border-collapse: separate;
+    -webkit-border-vertical-spacing: 10px; 
+    -webkit-border-horizontal-spacing: 10px;
+}
+#active-sys td a{
+    text-decoration: none;
+    color:black
+}
+.active-sys-squ{
+    border:1px black solid;
+    border-radius: 5px;
+    background:#6fa8dc;  
+    color: white;
+    text-align:center;
+}
+
+
+#active-dis{
+    display: inline-block;
+    font-size:14;
+}
+#active-dis-main{
+    display: inline-block;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-weight: bolder;
+    color: #c27ba0;
+}
+#active-dis {
+    border-collapse: separate;
+    -webkit-border-vertical-spacing: 10px; 
+    -webkit-border-horizontal-spacing: 10px;
+}
+#active-dis td a{
+    text-decoration: none;
+    color:black;
+}
+.active-dis-squ{
+    border:1px black solid;
+    border-radius: 5px;
+    background:#c27ba0;
+    color:white;
+    text-align:center;
+}
+
+#sys-hr{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:13%;
+    /* margin: 0 5%; */
+}
+#dis-hr{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:2%;
+    /* margin: 0 5%; */
+}
+
+/*Button*/
+#phone{
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 94;
+    height: 98;
+    border:1px #9fc5f8 solid;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+#phone img{
+    position: absolute;
+    top:12%;
+    left:20%;
+}
+#question{
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90;
+    height: 94;
+    border:1px #9fc5f8 solid;
+    border-radius: 50%;
+    text-align: center;
+}
+#question img{
+    position: absolute;
+    top:16%;
+    left:12%;
+}
+#cellphone{
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90;
+    height: 94;
+    border:1px #9fc5f8 solid;
+    border-radius: 50%;
+    text-align: center;
+}
+#cellphone img{
+    position: absolute;
+    top:16%;
+    left:20%;
+}
+#facebook{
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90;
+    height: 94;
+    border:1px #9fc5f8 solid;
+    border-radius: 50%;
+    text-align: center;
+}
+#facebook img{
+    position: absolute;
+    top:12%;
+    left:20%;
+}
+#email{
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90;
+    height: 94;
+    border:1px #9fc5f8 solid;
+    border-radius: 50%;
+    text-align: center;
+}
+#email img{
+    position: absolute;
+    top:25%;
+    left:20%;
+}
+#stop{
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90;
+    height: 94;
+    border:1px #9fc5f8 solid;
+    border-radius: 50%;
+    text-align: center;
+}
+#stop img{
+    position: absolute;
+    top:20%;
+    left:17%;
+}
+.button-word p{
+    display: inline-block;
+    font-weight: bold;
+    color: #6fa8dc;
+    margin-left: 51px;
+    margin-right: 20px;
+    margin-bottom: 20px;    
+}
+#service{
+    margin-left: 120px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/*second_image*/
+#sec_image{
+    margin-bottom:10px;
+    width:960px;
+}
+
+/*Bottom*/
+.bottom{
+    position: relative;
+    width: 960px;
+    height: 65px;
+}
+#gamania_image{
+    display: inline-block;
+    position: absolute;
+    left: 4%;
+    width: 112;
+    height: 61;
+}
+#declare{
+    display: inline-block;
+    position: absolute;
+    left: 18%;
+    top:13px;
+    margin:0;
+    font-size: 12;
+}
+#counseling{
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    width: 58;
+    height: 60;
+}
+#warn{
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 60%;
+    margin:0;
+    font-size: 12;
+}
+#mark{
+    display: inline-block;
+    position: absolute;
+    left: 86%;
+    width: 109;
+    height: 60;
+}
+/*footer*/
+footer{
+    width:960;
+    background: #999999;
+}
+#footer-time{
+    float: left;
+    padding-left: 3%;
+    padding-right: 57%;
+}
+footer p{
+    display: inline-block;
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
